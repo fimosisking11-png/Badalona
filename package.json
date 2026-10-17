@@ -1,0 +1,9 @@
+{
+  "name": "badalona-strike-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de salas WebSocket para Badalona Strike (1v1 online)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

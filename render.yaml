@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: badalona-strike-server
+    runtime: node
+    plan: free
+    buildCommand: "echo sin dependencias"
+    startCommand: node server.js
+    healthCheckPath: /
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://TU-JUEGO.vercel.app
